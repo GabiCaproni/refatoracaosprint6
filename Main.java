@@ -35,4 +35,6 @@ public class Main {
 
 // DESAFIO FINAL: o que precisou mudar em Loja para o Xbox passar a
 // funcionar? O que isso demonstra sobre o Princípio Aberto/Fechado (OCP)?
-// Nao precisei alterar nada, foi apenas adcionar a classe Xbox, isso demonstra que o principio aberto e fechado é muito util, pois evita ter que fazer grandes alteraçoes ao adcionar algo novo.
+// Não foi necessário modificar a classe `Loja`. Para fazer o Xbox funcionar, 
+// apenas criamos uma nova classe que implementa `IConsole`. Isso mostra que o OCP 
+// permite adicionar novos tipos de console sem alterar o código que já existe.
